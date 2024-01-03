@@ -1,0 +1,87 @@
+ahi:
+  TrueColor:
+    # chan names: BLU, GRN, RED, NIR, IR
+
+interface: products
+family: list
+name: true_color
+docstring: |
+  True Color products
+
+spec:
+  products:
+    - name: TrueColor
+      source_names: [ahi]
+      docstring: |
+        AHI True Color product
+      product_defaults: TrueColor
+      spec:
+        variables:
+          [
+            "B01Rad",
+            "B02Rad",
+            "B03Rad",
+            "B04Rad",
+            "B13BT",
+            "solar_zenith_angle",
+            "satellite_zenith_angle",
+            "solar_azimuth_angle",
+            "satellite_azimuth_angle",
+          ]
+    - name: TrueColor
+      source_names: [viirs]
+      docstring: |
+        VIIRS True Color product
+      product_defaults: TrueColor
+      spec:
+        variables:
+          [
+            "M03Rad",
+            "M04Rad",
+            "M05Rad",
+            "M07Rad",
+            "solar_zenith_angle",
+            "satellite_zenith_angle",
+            "solar_azimuth_angle",
+            "satellite_azimuth_angle",
+            "latitude",
+            "longitude",
+          ]
+    - name: TrueColor
+      source_names: [modis]
+      docstring: |
+        MODIS True Color product
+      product_defaults: TrueColor
+      spec:
+        variables:
+          [
+            "chan1.0Rad",
+            "chan2.0Rad",
+            "chan3.0Rad",
+            "chan4.0Rad",
+            "solar_zenith_angle",
+            "satellite_zenith_angle",
+            "solar_azimuth_angle",
+            "satellite_azimuth_angle",
+            "latitude",
+            "longitude",
+          ]
+    - name: TrueColor
+      source_names: [abi]
+      docstring: |
+        ABI True Color product
+      product_defaults: TrueColor
+      spec:
+        variables:
+          [
+            "B01Rad",
+            "B02Rad",
+            "B03Rad",
+            "B13BT",
+            "solar_zenith_angle",
+            "satellite_zenith_angle",
+            "solar_azimuth_angle",
+            "satellite_azimuth_angle",
+            "latitude",
+            "longitude",
+          ]
