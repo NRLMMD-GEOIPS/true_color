@@ -1,0 +1,81 @@
+ | # # # Distribution Statement A. Approved for public release. Distribution unlimited.
+ | # # #
+ | # # # Author:
+ | # # # Naval Research Laboratory, Marine Meteorology Division
+ | # # #
+ | # # # This program is free software: you can redistribute it and/or modify it under
+ | # # # the terms of the NRLMMD License included with this program. This program is
+ | # # # distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+ | # # # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the included license
+ | # # # for more details. If you did not receive the license, for more information see:
+ | # # # https://github.com/U-S-NRL-Marine-Meteorology-Division/
+
+Version 1.12.0 (2023-12-07)
+***************************
+
+* Bug fixes
+
+  * Update algorithm -> algorithms
+  * Move rayleigh import inside function
+* Installation Updates
+
+  * Update pyproject.toml to poetry
+
+Bug Fixes
+=========
+
+Move rayleigh import inside function
+------------------------------------
+
+Avoid importing during install/plugin registry setup.
+
+::
+
+  modified: true_color/plugins/modules/algorithms/visir/TrueColor.py
+
+Update algorithm -> algorithms
+------------------------------
+
+*From GEOIPS#408: 2023-11-19, release process updates*
+
+Update interface name from algorithm to algorithms.
+
+::
+
+  modified: true_color/plugins/modules/algorithms/visir/TrueColor.py
+
+Installation Updates
+====================
+
+Update to pyproject.toml poetry
+-------------------------------
+
+Include rayleigh git depedency in pyproject.toml.  Also add the empty _version.py
+file (for poetry dynamic versioning), and update .gitignore to standard formatting.
+
+NOTE: git-based pyproject.toml dependencies do not seem to
+build/install quite right. Comment out from pyproject.toml for now.
+
+::
+
+  modified: pyproject.toml
+  modified: .gitignore
+  new: true_color/_version.py
+
+Release Process
+===============
+
+Add release note for v1.12.0
+----------------------------
+
+*From GEOIPS#376: 2023-11-01, release process updates*
+
+*From GEOIPS#408: 2023-11-19, release process updates*
+
+All updates until the next release (v1.12.0) will be included in
+this release note.
+
+::
+
+  modified: docs/source/releases/v1_12_0.rst
+  modified: docs/source/releases/index.rst
