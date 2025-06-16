@@ -1,14 +1,5 @@
-    # # # Distribution Statement A. Approved for public release. Distribution unlimited.
-    # # #
-    # # # Author:
-    # # # Naval Research Laboratory, Marine Meteorology Division
-    # # #
-    # # # This program is free software: you can redistribute it and/or modify it under
-    # # # the terms of the NRLMMD License included with this program. This program is
-    # # # distributed WITHOUT ANY WARRANTY; without even the implied warranty of
-    # # # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the included license
-    # # # for more details. If you did not receive the license, for more information see:
-    # # # https://github.com/U-S-NRL-Marine-Meteorology-Division/
+    # # # This source code is subject to the license referenced at
+    # # # https://github.com/NRLMMD-GEOIPS.
 
 True Color GeoIPS Plugin
 ========================
@@ -41,6 +32,24 @@ SKIP IF YOU HAVE ALREADY INSTALLED BASE GEOIPS ENVIRONMENT
 If GeoIPS Base is not yet installed, follow the
 [installation instructions](https://github.com/NRLMMD-GEOIPS/geoips#installation)
 within the geoips source repo documentation:
+
+Install GeoIPS Plugin Package Dependencies
+------------------------------------------
+
+NOTE: There is a very specific order currently to ensure dependnecies are installed
+consistently so they work with all GeoIPS plugin packages.  Please follow the README's
+in order for each of these packages when installing True Color.  These must be cloned
+and installed in this order from the beginning to avoid conflicting dependency versions.
+
+* https://github.com/NRLMMD-GEOIPS/geoips#readme
+* https://github.com/NRLMMD-GEOIPS/fortran_utils#readme
+* https://github.com/NRLMMD-GEOIPS/ancildat#readme
+* https://github.com/NRLMMD-GEOIPS/synth_green#readme
+* https://github.com/NRLMMD-GEOIPS/rayleigh#readme
+* https://github.com/NRLMMD-GEOIPS/data_fusion#readme
+* https://github.com/NRLMMD-GEOIPS/pyrocb#readme
+* https://github.com/NRLMMD-GEOIPS/geoips_nrl#readme
+* https://github.com/NRLMMD-GEOIPS/true_color#readme
 
 Install true_color package
 ----------------------------

@@ -1,0 +1,25 @@
+bug fix:
+- title: 'Update to use bdecks in geoips repo'
+  description: |
+    No longer storing deck files in test data repos.
+
+    Additionally, replace GEOIPS_BASEDIR with GEOIPS_PACKAGES_DIR and
+    GEOIPS_TESTDATA_DIR
+  files:
+    deleted:
+    - ''
+    moved:
+    - ''
+    added:
+    - ''
+    modified:
+    - tests/scripts/abi.sh
+    - tests/scripts/ahi.sh
+    - tests/scripts/modis.sh
+    - tests/scripts/viirs.sh
+  related-issue:
+    number: 753
+    repo_url: "GEOIPS/geoips"
+  date:
+    start: 2025-04-14
+    finish: 2025-04-14
