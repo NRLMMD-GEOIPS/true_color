@@ -3,7 +3,7 @@
 # # # This source code is subject to the license referenced at
 # # # https://github.com/NRLMMD-GEOIPS.
 
-run_procflow $GEOIPS_TESTDATA_DIR/test_data_viirs/data//npp/20210205/080600/* \
+geoips run single_source $GEOIPS_TESTDATA_DIR/test_data_viirs/data//npp/20210205/080600/* \
           --procflow single_source \
           --reader_name viirs_netcdf \
           --product_name TrueColor \
