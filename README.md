@@ -36,7 +36,7 @@ within the geoips source repo documentation:
 Install GeoIPS Plugin Package Dependencies
 ------------------------------------------
 
-NOTE: There is a very specific order currently to ensure dependnecies are installed
+NOTE: There is a very specific order currently to ensure dependencies are installed
 consistently so they work with all GeoIPS plugin packages.  Please follow the README's
 in order for each of these packages when installing True Color.  These must be cloned
 and installed in this order from the beginning to avoid conflicting dependency versions.
@@ -46,8 +46,6 @@ and installed in this order from the beginning to avoid conflicting dependency v
 * https://github.com/NRLMMD-GEOIPS/ancildat#readme
 * https://github.com/NRLMMD-GEOIPS/synth_green#readme
 * https://github.com/NRLMMD-GEOIPS/rayleigh#readme
-* https://github.com/NRLMMD-GEOIPS/data_fusion#readme
-* https://github.com/NRLMMD-GEOIPS/pyrocb#readme
 * https://github.com/NRLMMD-GEOIPS/true_color#readme
 
 Install true_color package

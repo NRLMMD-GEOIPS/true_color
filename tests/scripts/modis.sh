@@ -3,7 +3,7 @@
 # # # This source code is subject to the license referenced at
 # # # https://github.com/NRLMMD-GEOIPS.
 
-run_procflow $GEOIPS_TESTDATA_DIR/test_data_modis/data/aqua/20210705/*/* \
+geoips run single_source $GEOIPS_TESTDATA_DIR/test_data_modis/data/aqua/20210705/*/* \
           --procflow single_source \
           --reader_name modis_hdf4 \
           --product_name TrueColor \
