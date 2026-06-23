@@ -1,0 +1,18 @@
+installation:
+- title: Update true color image outputs for solar azimuth angle corrections.
+  description: |
+    Geostationary geolocation fixes for azimuth angles improved contrast in True Color
+    imagery.  Image outputs had not yet been updated for the fix.
+  files:
+    modified:
+    - 'tests/outputs/abi/TrueColor_image/20210718_015031_EP062021_abi_goes-17_TrueColor_120kts_100p00_1p0-clean.png'
+    - 'tests/outputs/ahi/TrueColor_image/20200405_000000_SH252020_ahi_himawari-8_TrueColor_100kts_100p00_1p0-clean.png'
+    deleted:
+    - ''
+    moved:
+    - ''
+  related-issue:
+    internal: geoips#1067 - 1.19.0 updates
+  date:
+    start: 2026-06-01
+    finish: 2026-06-01

@@ -3,7 +3,7 @@ bug fix:
   description: |
     No longer storing deck files in test data repos.
 
-    Additionally, replace GEOIPS_BASEDIR with GEOIPS_PACKAGES_DIR and
+    Additionally, replace GEOIPS BASEDIR with GEOIPS_PACKAGES_DIR and
     GEOIPS_TESTDATA_DIR
   files:
     deleted:
