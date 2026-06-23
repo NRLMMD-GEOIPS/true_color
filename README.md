@@ -46,9 +46,6 @@ and installed in this order from the beginning to avoid conflicting dependency v
 * https://github.com/NRLMMD-GEOIPS/ancildat#readme
 * https://github.com/NRLMMD-GEOIPS/synth_green#readme
 * https://github.com/NRLMMD-GEOIPS/rayleigh#readme
-* https://github.com/NRLMMD-GEOIPS/data_fusion#readme
-* https://github.com/NRLMMD-GEOIPS/pyrocb#readme
-* https://github.com/NRLMMD-GEOIPS/geoips_nrl#readme
 * https://github.com/NRLMMD-GEOIPS/true_color#readme
 
 Install true_color package
