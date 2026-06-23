@@ -36,7 +36,7 @@ within the geoips source repo documentation:
 Install GeoIPS Plugin Package Dependencies
 ------------------------------------------
 
-NOTE: There is a very specific order currently to ensure dependnecies are installed
+NOTE: There is a very specific order currently to ensure dependencies are installed
 consistently so they work with all GeoIPS plugin packages.  Please follow the README's
 in order for each of these packages when installing True Color.  These must be cloned
 and installed in this order from the beginning to avoid conflicting dependency versions.
